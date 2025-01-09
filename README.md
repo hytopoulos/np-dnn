@@ -1,15 +1,6 @@
 # Deep Neural Network with NumPy
 
-This project is an implementation of a deep neural network using only NumPy. Designed to understand the fundamentals of neural networks, this tool can be utilized for both classification and regression problems with support for minibatch training and customizable network depth and activation functions.
-
-## Features
-
-- **Single Hidden Layer Neural Network**: A basic neural network with one hidden layer for straightforward tasks.
-- **Arbitrarily Deep Neural Network**: Supports creating neural networks with any number of hidden layers to tackle more complex problems.
-- **Classification and Regression Modes**: Can be configured to solve either classification or regression problems.
-- **Minibatch Training**: Improves training efficiency by using minibatches, with customizable batch sizes.
-- **Command-Line Interface**: Easy-to-use command-line interface for training and evaluating the neural network.
-- **Customizable Parameters**: Allows setting various hyperparameters like learning rate, number of epochs, hidden units, activation functions, and initialization ranges.
+This project is an implementation of a deep neural network using only NumPy. It supports both classification and regression problems, minibatch training, and customizable network depth and activation functions.
 
 ## Setup
 
@@ -17,7 +8,7 @@ This project is an implementation of a deep neural network using only NumPy. Des
     ```
     git clone <repository-url>
     ```
-2. **Create a Python Virtual Environment** (Optional but recommended):
+2. **Create Virtual Environment**:
     ```
     python3 -m venv ~/.venv_dnn
     source ~/.venv_dnn/bin/activate
